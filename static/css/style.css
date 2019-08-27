@@ -4,7 +4,7 @@
 #main{
     border-radius: 0.15%;
     padding: 15px 20px;
-    background: #f2f0ec;
+    background: #1b1b23;
 }
 
 @media(min-width:90%) {
@@ -17,8 +17,16 @@
     color: #7BBF70;
 }
 
+.p-title__link:hover {
+    color: #66FF00;
+}
+
 .p-subtitle{
     color: #7BBF70;
+}
+
+.p-subtitle:hover {
+    color: #66FF00;
 }
 
 /* Base style */
@@ -79,12 +87,12 @@ p {
 }
 
 a {
-    color: #858596;
+    color: #7BBF70;
     text-decoration: none
 }
 
 a:hover {
-    color: #175081
+    color: #66FF00
 }
 
 ul li {
@@ -243,11 +251,11 @@ img {
 }
 
 .c-article__title a {
-    color: #858596
+    color: #7BBF70
 }
 
 .c-article__title a:hover {
-    color: #175081
+    color: #66FF00
 }
 
 .c-article__meta {
@@ -314,7 +322,7 @@ img {
     margin: 8px 6px 0 0;
     padding: 4px;
     font-size: 1.6rem;
-    color: #555
+    color: #DA70D6
 }
 
 .c-tag:before {
@@ -325,7 +333,8 @@ img {
 }
 
 .c-tag:hover {
-    background: #fafafa
+    background: #1b1b23;
+    color: #FF00FF;
 }
 
 .c-pagination {
@@ -339,7 +348,7 @@ img {
 }
 
 .c-pagination a:hover {
-    background: #fafafa
+    background: #1b1b23;
 }
 
 .c-pagination__ctrl {
