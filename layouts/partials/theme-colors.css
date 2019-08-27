@@ -61,12 +61,12 @@ body {
 }
 
 a {
-    color: {{ .Param "colors.text" | default "#858596" }};
+    color: {{ .Param "colors.text" | default "#7BBF70" }};
     text-decoration: {{ .Param "colors.a-decoration" | default "underline" }};
 }
 
 a:hover {
-    color: {{ .Param "colors.main" | default "#7BBF70" }};
+    color: {{ .Param "colors.main" | default "#66FF00" }};
 }
 
 pre {

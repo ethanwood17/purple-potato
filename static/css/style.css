@@ -187,7 +187,7 @@ img {
 
 .c-title {
     font-weight: 300;
-    font-family: Open Sans, sans-serif
+    font-family: 'Roboto Mono', monospace;
 }
 
 .c-links {
@@ -404,7 +404,7 @@ img {
     margin: 12px 0 0;
     font-size: 1.4rem;
     font-weight: 300;
-    font-family: Open Sans, sans-serif
+    font-family: 'Roboto Mono', monospace;
 }
 
 .p-tag-title {
