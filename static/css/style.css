@@ -13,14 +13,6 @@
     }
 }
 
-/*ul.p-menu__lists::before {
-    content: "‣";
-    color: #ED5276;
-    font-size: 1.5rem;
-    font-weight: bold;
-    font-family: monospace, sans-serif;
-}
-*/
 .p-title__link {
     color: #858596;
 }

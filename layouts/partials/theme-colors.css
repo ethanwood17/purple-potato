@@ -39,11 +39,11 @@ h6{
 #main{
     border-radius: 0.15%;
     padding: 15px 20px;
-    background: {{ .Param "colors.background" | default "#101010" }};
+    background: {{ .Param "colors.background" | default "#1b1b23" }};
 }
 
 .p-title__link {
-    color: {{ .Param "colors.main" | default "#FF1493" }};
+    color: {{ .Param "colors.main" | default "#858596" }};
 }
 
 .p-title__link:hover {
@@ -53,15 +53,15 @@ h6{
 /* Base style */
 
 body {
-    color: {{ .Param "colors.text" | default "#66FF00" }};
-    background: {{ .Param "colors.background" | default "#101010" }};;
+    color: {{ .Param "colors.text" | default "#858596" }};
+    background: {{ .Param "colors.background" | default "#1b1b23" }};
     line-height: 1.57
     font-size: 1.0rem;
-    font-family: -apple-system, BlinkMacSystemFont, YakuHanJP, Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Mono', monospace;
 }
 
 a {
-    color: {{ .Param "colors.text" | default "#66FF00" }};
+    color: {{ .Param "colors.text" | default "#858596" }};
     text-decoration: {{ .Param "colors.a-decoration" | default "underline" }};
 }
 
@@ -73,7 +73,7 @@ pre {
     display: block;
     padding: 12px;
     border-radius: 3px;
-    background-color: {{ .Param "colors.background" | default "#101010" }};
+    background-color: {{ .Param "colors.background" | default "#1b1b23" }};
     font-size: 1.2rem;
     word-wrap: break-word;
     overflow: auto
