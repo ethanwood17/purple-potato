@@ -4,14 +4,14 @@ table, th, td {
 }
 
 th {
-  background: {{ .Param "colors.th-bg" | default "#7BBF70" }};
+  background: {{ .Param "colors.th-bg" | default "#3B0072" }};
   background-color: {{ .Param "colors.th-bg" | default "#3B0072" }};
   color: {{ .Param "colors.th-fg" | default "#FF040C" }};
 }
 
 /* generic headers */
 h1{
-  color: {{ .Param "colors.h1" | default "#FF00FF" }};
+  color: {{ .Param "colors.h1" | default "#7BBF70" }};
   text-decoration: {{ .Param "colors.h1-decoration" | default "none" }};
 }
 h2{

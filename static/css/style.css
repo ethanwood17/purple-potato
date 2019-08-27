@@ -692,7 +692,7 @@ img {
     height: 100%;
     padding: 8px;
     background-size: cover;
-    background-color: #92c6f2;
+    background-color: #1b1b23;
     color: #fafafa;
     font-weight: 400;
     font-family: Open Sans, sans-serif
@@ -705,12 +705,12 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .3);
+    background: #1b1b23;
     transition: .1s
 }
 
 .p-related__item a:hover:before {
-    background: rgba(0, 0, 0, .6)
+    background: #1b1b23;
 }
 
 .p-related__item span {
