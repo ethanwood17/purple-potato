@@ -2,7 +2,6 @@
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
 <main> {{ range (.Paginator 5).Pages}}
   <section>
-    <h2 class="c-title p-tag-title">{{ .Title }}</h2>
     {{ .Render "li" }}
   </section>{{ end }}
 {{ partial "footer.html" . }}
