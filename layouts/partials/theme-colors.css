@@ -228,10 +228,10 @@ blockquote {
     height: 100%;
     padding: 8px;
     background-size: cover;
-    background-color: {{ .Param "colors.related-bg" | default "#101010" }};
-    color: {{ .Param "colors.related-fg" | default "#66FF00" }};
+    background-color: {{ .Param "colors.related-bg" | default "#1b1b23" }};
+    color: {{ .Param "colors.related-fg" | default "#7BBF70" }};
     font-weight: 400;
-    font-family: Open Sans, sans-serif
+    font-family: 'Roboto Mono', monospace;
 }
 
 .p-related__item a:before {
@@ -241,7 +241,7 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, .3);
+    background: #1b1b23;
     transition: .1s
 }
 
@@ -260,7 +260,7 @@ blockquote {
     height: 28px;
     border: none;
     border-radius: 50%;
-    background: {{ .Param "colors.background" | default "#101010" }};
+    background: {{ .Param "colors.background" | default "#1b1b23" }};
 }
 
 .slick-arrow:after {
