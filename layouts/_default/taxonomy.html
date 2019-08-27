@@ -1,13 +1,4 @@
 {{ partial "header.html" . }}
 {{ $baseurl := .Site.BaseURL | sanitizeurl }}
-<main> {{ range (.Paginator 5).Pages}}
-  <section>
-    <h2 class="c-title p-tag-title">{{ .Title }}</h2>
-        <div>
-            {{ range .Params.tags }}
-            <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
-            {{ end }}
-        </div>
-    {{ .Render "li" }}
-  </section>{{ end }}
+{{ .Render "li" }}
 {{ partial "footer.html" . }}
