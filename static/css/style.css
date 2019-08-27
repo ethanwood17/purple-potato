@@ -22,11 +22,11 @@
 }
 */
 .p-title__link {
-    color: #ccc;
+    color: #858596;
 }
 
 .p-subtitle{
-    color: #999;
+    color: #858596;
 }
 
 /* Base style */
@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    color: ##858596;
+    color: #858596;
     background: #1b1b23;
     line-height: 1.57
     font-size: 1.6rem;
@@ -55,7 +55,7 @@ h4,
 h5,
 h6 {
     font-weight: 300;
-    font-family: Open Sans, sans-serif
+    font-family: 'Roboto Mono', monospace;
 }
 
 h1 {
@@ -87,7 +87,7 @@ p {
 }
 
 a {
-    color: #337ab7;
+    color: #858596;
     text-decoration: none
 }
 
@@ -154,7 +154,7 @@ th {
 }
 
 del {
-    color: #999
+    color: #858596
 }
 
 blockquote {
@@ -251,7 +251,7 @@ img {
 }
 
 .c-article__title a {
-    color: #111
+    color: #858596
 }
 
 .c-article__title a:hover {
@@ -265,7 +265,7 @@ img {
 
 .c-article__summary {
     font-size: 1.4rem;
-    color: #999;
+    color: #858596;
     line-height: 1.57
 }
 
@@ -546,7 +546,7 @@ img {
     margin: auto;
     text-align: center;
     font-size: 1.4rem;
-    color: #999
+    color: #858596
 }
 
 @media(min-width:640px) {
