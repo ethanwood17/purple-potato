@@ -4,7 +4,7 @@ table, th, td {
 }
 
 th {
-  background: {{ .Param "colors.th-bg" | default "#3B0072" }};
+  background: {{ .Param "colors.th-bg" | default "#7BBF70" }};
   background-color: {{ .Param "colors.th-bg" | default "#3B0072" }};
   color: {{ .Param "colors.th-fg" | default "#FF040C" }};
 }
@@ -145,10 +145,12 @@ blockquote {
 }
 
 .c-tag:hover {
+    background: {{ .Param "colors.ctag-hover-bg" | default "#1b1b23" }};
     color: {{ .Param "colors.ctag-hover-fg" | default "#FF00FF" }};
 }
 
 .c-pagination a:hover {
+    background: {{ .Param "colors.background" | default "#1b1b23" }};
 }
 
 .p-tag-title {
