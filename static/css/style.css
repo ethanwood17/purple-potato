@@ -41,11 +41,11 @@ html {
 }
 
 body {
-    color: #747369d4;
-    background: #111114;
+    color: ##858596;
+    background: #1b1b23;
     line-height: 1.57
     font-size: 1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont, YakuHanJP, Hiragino Kaku Gothic ProN, Meiryo, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Mono', monospace;
 }
 
 h1,
