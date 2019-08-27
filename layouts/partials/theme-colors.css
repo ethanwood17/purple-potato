@@ -43,7 +43,7 @@ h6{
 }
 
 .p-title__link {
-    color: {{ .Param "colors.main" | default "#858596" }};
+    color: {{ .Param "colors.main" | default "#7BBF70" }};
 }
 
 .p-title__link:hover {
