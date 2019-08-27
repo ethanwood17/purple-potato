@@ -1,13 +1,13 @@
 <nav class="c-pagination p-pagination">
   <div class="c-pagination__ctrl">
     <div class="c-pagination__newer">
-      {{if .HasNext}}
-      <a href="{{ .Next.URL }}">Newer</a>
+      {{if .HasPrev}}
+      <a href="{{ .Prev.URL }}">Newer</a>
       {{end}}
     </div>
     <div class="c-pagination__older">
-      {{if .HasPrev}}
-      <a href="{{ .Prev.URL }}">Older</a>
+      {{if .HasNext}}
+      <a href="{{ .Next.URL }}">Older</a>
       {{end}}
     </div>
   </div>
