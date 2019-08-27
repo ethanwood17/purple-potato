@@ -57,7 +57,7 @@ body {
     background: {{ .Param "colors.background" | default "#1b1b23" }};
     line-height: 1.57
     font-size: 1.0rem;
-    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Mono', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a {
