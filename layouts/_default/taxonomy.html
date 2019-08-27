@@ -8,8 +8,6 @@
             <a href="{{ $baseurl }}/tags/{{ . | urlize }}" class="c-tag">{{ . }}</a>
             {{ end }}
         </div>
-    <div class="content">
-      <p>{{.Summary}}</p>
-    </div>
+    {{ .Render "li" }}
   </section>{{ end }}
 {{ partial "footer.html" . }}
