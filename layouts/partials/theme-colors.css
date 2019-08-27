@@ -246,7 +246,7 @@ blockquote {
 }
 
 .p-related__item a:hover:before {
-    background: rgba(0, 0, 0, .6)
+    color: #66FF00;
 }
 
 /* Slick css */
