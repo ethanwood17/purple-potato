@@ -1,15 +1,15 @@
-name = "Dusky Neon Potato"
+name = "Purple Potato"
 license = "MIT"
-licenselink = "https://raw.githubusercontent.com/VVelox/hugo-dusky-neon-potato/master/LICENSE.md"
-description = "Outrun with the power of a potato."
-source_repo = "https://github.com/VVelox/hugo-dusky-neon-potato.git"
+licenselink = "https://github.com/ethanwood17/purple-potato/blob/master/LICENSE.md"
+description = "My version of the Dusky Neon Theme"
+source_repo = "https://github.com/ethanwood17/purple-potato.git"
 tags = ["Responsive", "Blog", "Google analytics", "Disqus", "Clean", "Tags", "Minimal", "Custom Themes", "Minimalist", "Simple", "Pink", "Green", "Starter", "Dark", "Sortable Tables"]
 features = ["blog", "sortable tables", "image zoom", "optional pagination"]
 min_version = 0.27
 [author]
     name = "Zane C. Bowers-Hadley"
-    homepage = "https://github.com/VVelox/hugo-dusky-neon-potato"
+    homepage = ""
 [original]
-    author="Suraj Mandal"
-    homepage="https://github.com/surajmandalcell/potato-dark"
-    repo="https://github.com/surajmandalcell/potato-dark.git"
+    author="Zane C. Bowers-Hadley"
+    homepage="https://github.com/VVelox/hugo-dusky-neon-potato"
+    repo="https://github.com/VVelox/hugo-dusky-neon-potato.git"
