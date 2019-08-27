@@ -4,4 +4,5 @@
   <section>
     {{ .Render "li" }}
   </section>{{ end }}
+{{ partial "pagination.html" .Paginator }}
 {{ partial "footer.html" . }}
