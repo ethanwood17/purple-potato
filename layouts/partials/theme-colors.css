@@ -141,16 +141,14 @@ blockquote {
     margin: 8px 6px 0 0;
     padding: 4px;
     font-size: 1.6rem;
-    color: {{ .Param "colors.ctag" | default "#FF00FF" }};
+    color: {{ .Param "colors.ctag" | default "#DA70D6" }};
 }
 
 .c-tag:hover {
-    background: {{ .Param "colors.ctag-hover-bg" | default "#101010" }};
-    color: {{ .Param "colors.ctag-hover-fg" | default "#66FF00" }};
+    color: {{ .Param "colors.ctag-hover-fg" | default "#FF00FF" }};
 }
 
 .c-pagination a:hover {
-    background: {{ .Param "colors.background" | default "#101010" }};
 }
 
 .p-tag-title {
