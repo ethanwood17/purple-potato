@@ -41,7 +41,7 @@ html {
 }
 
 body {
-    color: #858596;
+    color: #BBBBC4;
     background: #1b1b23;
     line-height: 1.57
     font-size: 1.6rem;
@@ -155,7 +155,7 @@ th {
 }
 
 del {
-    color: #858596
+    color: #BBBBC4
 }
 
 blockquote {
@@ -266,7 +266,7 @@ img {
 
 .c-article__summary {
     font-size: 1.4rem;
-    color: #858596;
+    color: #BBBBC4;
     line-height: 1.57
 }
 
@@ -548,7 +548,7 @@ img {
     margin: auto;
     text-align: center;
     font-size: 1.4rem;
-    color: #858596
+    color: #BBBBC4
 }
 
 @media(min-width:640px) {
