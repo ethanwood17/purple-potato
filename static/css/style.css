@@ -524,6 +524,27 @@ img {
 }
 
 .p-author {
+    display: inline-block;
+    margin: 8px 6px 0 0;
+    padding: 4px;
+    font-size: 1.6rem;
+    color: #F5E462;
+
+}
+
+.p-author:before {
+    content: "#";
+    display: inline-block;
+    margin-right: 2px;
+    color: #F5E462;
+}
+
+.p-author:hover {
+    /*background: #1b1b23;*/
+    color: #F5DB18;
+}
+
+/*.p-author {
     display: block;
     position: relative;
     width: 100%;
@@ -575,7 +596,7 @@ img {
 
 .p-author__body p {
     margin: 0
-}
+}*/
 
 .p-pagination {
     margin: 30px 0
