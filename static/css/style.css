@@ -13,6 +13,10 @@
     }
 }
 
+:any-link {
+    text-decoration: none;
+}
+
 .p-title__link {
     color: #7BBF70;
 }
@@ -89,7 +93,6 @@ p {
 
 a {
     color: #7BBF70;
-    text-decoration: underline;
 }
 
 a:hover {
@@ -323,7 +326,7 @@ img {
     margin: 8px 6px 0 0;
     padding: 4px;
     font-size: 1.6rem;
-    color: #DA70D6
+    color: #DA70D6; 
 }
 
 .c-tag:before {
@@ -529,7 +532,6 @@ img {
     padding: 4px;
     font-size: 1.6rem;
     color: #F5E462;
-
 }
 
 .p-author:before {
@@ -540,7 +542,6 @@ img {
 }
 
 .p-author:hover {
-    /*background: #1b1b23;*/
     color: #F5DB18;
 }
 
